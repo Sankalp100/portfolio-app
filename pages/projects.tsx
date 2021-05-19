@@ -5,6 +5,7 @@ import { projects as projectsData } from "../data";
 import { Category } from "../types";
 import { motion } from "framer-motion";
 import { fadeInUp, routeFade, stagger } from "../animation";
+import Head from "next/head";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -27,14 +28,17 @@ const Projects = () => {
   };
 
   return (
-    <motion.div 
-      className="px-5 py-2 overflow-y-scroll " 
+    <motion.div
+      className="px-5 py-2 overflow-y-scroll "
       style={{ height: "65vh" }}
       variants={routeFade}
       initial="hidden"
       animate="visible"
       exit="exit"
-      >
+    >
+      <Head>
+        <title>Sankalp Gour | Software Developer</title>
+      </Head>
       {/* <ProjectNavbar
         handleFilterCategory={handleFilterCategory}
         active={active}
@@ -52,7 +56,7 @@ const Projects = () => {
             variants={fadeInUp}
             className="col-span-12 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 sm:col-span-6 lg:col-span-4"
           >
-            <ProjectCard project={project} key={project.id} showDetail={showDetail} setShowDetail={setShowDetail}/>
+            <ProjectCard project={project} key={project.id} showDetail={showDetail} setShowDetail={setShowDetail} />
           </motion.div>
         ))}
         {/* </AnimatePresence> */}

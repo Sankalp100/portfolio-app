@@ -10,6 +10,7 @@ import { services } from '../data'
 import { Service } from '../types'
 import { motion } from "framer-motion";
 import { fadeInUp, routeFade, stagger } from "../animation";
+import Head from "next/head";
 
 const About: NextPage = () => {
    // console.log(services)
@@ -22,6 +23,9 @@ const About: NextPage = () => {
          animate="visible"
          exit="exit"
       >
+         <Head>
+            <title>Sankalp Gour | Software Developer</title>
+         </Head>
          <h6 className='my-3 text-base font-medium'>
             I am a Front End developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with React and NextJs. I also have experience working with Node, Express, and MongoDB.
         </h6>
