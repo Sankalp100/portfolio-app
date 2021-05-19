@@ -64,12 +64,12 @@ const Sidebar = () => {
          {/* Email Button */}
 
          <button
-            className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-gray to-blue-500 hover:scale-105 focus:outline-none'
+            className='w-9/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-gray to-blue-500 hover:scale-105 focus:outline-none'
             onClick={() => window.open('mailto:sankalpgour06@gmail.com')}>
             Email me
           </button>
          <button
-            className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-gray to-blue-500 hover:scale-105 focus:outline-none'
+            className='w-9/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-gray to-blue-500 hover:scale-105 focus:outline-none'
             onClick={changeMode}>
             Toggle Theme
           </button>
