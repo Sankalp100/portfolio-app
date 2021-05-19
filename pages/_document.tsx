@@ -10,7 +10,7 @@ class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"></link>
                     <meta
                         name="description"
-                        content="MERN stack developer looking for a job"
+                        content="MERN stack developer"
                     />
                     <meta
                         name="keywords"
