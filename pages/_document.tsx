@@ -10,14 +10,14 @@ class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"></link>
                     <meta
                         name="description"
-                        content="MERN stack developer"
+                        content="Software Developer, Freelancer ,MERN developer"
                     />
                     <meta
                         name="keywords"
-                        content="Full Stack Web Developer, Freelancer ,MERN developer"
+                        content="Software Developer, Freelancer ,MERN developer"
                     />
                 </Head>
-                <body className='bg-fixed bg-gradient-to-r from-gray to-blue-500 dark:from-dark-500 dark:to-dark-700'>
+                <body className='h-screen bg-fixed bg-gradient-to-r from-gray to-blue-500 dark:from-dark-500 dark:to-dark-700'>
                     <Main />
                     <NextScript />
                 </body>

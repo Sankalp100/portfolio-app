@@ -23,13 +23,13 @@ export const services: Service[] = [
       Icon: AiOutlineApi,
       title: 'API Development',
       about:
-         'I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ',
+         'I can develop robust  REST API using <b>Node API</b> ',
    },
    {
       Icon: MdDeveloperMode,
       title: 'Competitive Coder',
       about:
-         'a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ',
+         'a daily problem solver in <b>HackerRank</b>',
    },
    // {
    //    Icon: AiOutlineAntDesign,
@@ -127,36 +127,32 @@ export const projects: IProject[] = [
    },
    {
      id: 7,
-     name: "Hostel-Management-System",
+     name: "React-CodePen-Clone",
      //TODO add data
-     image_path: "/images/algoVisual.png",
-     deployed_url: "https://visual-algorithm.web.app/",
-     github_url: "https://github.com/Sankalp100/Hostel-Management-System",
+     image_path: "/images/ReactCodePen.png",
+     deployed_url: "https://react-codepen-clone-one.vercel.app/",
+     github_url: "https://github.com/Sankalp100/React-CodePen-clone",
      category: ["react"],
      description:
-       "A desktop application aimed to manage hostel. The application was made using Bootstrap, Django and sqllite for Database. This was a personal project made during summer.",
-     key_techs: ["Bootstrap", "Django", "sqllite"],
+       "Online code editor where developers can test there code(for HTML, CSS, JS)",
+     key_techs: ["React"],
    },
  
-   // {
-   //   id: 1,
-   //   name: "Dev Talks",
-   //   image_path: "/images/dev.jpg",
-   //   deployed_url: "https://dev-talks.herokuapp.com/",
-   //   github_url: "https://github.com/Dey-Sumit/Dev-talks",
-   //   category: ["node", "mongo", "react"],
-   //   description:
-   //     "Social Media app for developers who can share project,create posts,etc...",
-   //   key_techs: [
-   //     "React",
-   //     "Redux",
-   //     "Node",
-   //     "Express",
-   //     "Mongo",
-   //     "REST API",
-   //     "Bootstrap",
-   //   ],
-   // },
+   {
+     id: 1,
+     name: "Crypto-tracker-v1",
+     image_path: "/images/crypto-tracker.png",
+     deployed_url: "https://crypto-traker-v1.vercel.app/",
+     github_url: "https://github.com/Sankalp100/crypto-traker-v1",
+     category: ["node", "mongo", "react"],
+     description:
+       "Cryptocurrency price tracker app made with React",
+     key_techs: [
+       "React",
+       "Hooks",
+       "Css"
+     ],
+   },
  
    // {
    //   id: 2,

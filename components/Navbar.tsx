@@ -34,7 +34,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div className='flex items-center justify-between px-5 py-3 my-3'>
+        <div className='flex items-center justify-between px-5 py-1 my-1'>
             <span className='text-xl font-bold border-b-4 border-blue-500 md:text-2xl'>
                 {active}
             </span>

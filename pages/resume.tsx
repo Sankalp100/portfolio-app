@@ -7,11 +7,12 @@ import Head from "next/head";
 const Resume = () => {
     return (
         <motion.div
-            className="px-6 py-2"
+            className="px-6 py-1 overflow-y-scroll"
             variants={routeFade}
             initial="hidden"
             animate="visible"
             exit="exit"
+
         >
             <Head>
                 <title>Sankalp Gour | Software Developer</title>
@@ -19,7 +20,7 @@ const Resume = () => {
             {/* //! Education & Experience */}
             <div className='grid gap-6 md:grid-cols-2'>
                 <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                    <h5 className='my-3 text-2xl font-bold'>Education</h5>
+                    <h5 className='my-2 text-2xl font-bold'>Education</h5>
                     <div className=''>
                         <h5 className='my-2 text-xl font-bold'>
                             Information Technology (B.Tech)
@@ -38,7 +39,7 @@ const Resume = () => {
                     </div>
                 </motion.div>
                 <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                    <h5 className='my-3 text-2xl font-bold'>Experience</h5>
+                    <h5 className='my-2 text-2xl font-bold'>Experience</h5>
                     <div className=''>
                         <h5 className='my-1 text-xl font-bold'>
                             Software Developer
@@ -70,8 +71,7 @@ requests to ensure that the biggest impact features were worked on first.</p>
                             <a href="http://www.protsystems.com" className="mx-4">www.protsystems.com</a>
                         </div>
                         <p className='my-2'>Worked on a live project(FitMix). Where I developed the
-                        front-end in Angular6/7 and back-end with node and MongoDB. And I also
-work on their Main Project(Perfeqta) where I work on API’s.</p>
+                        front-end in Angular6/7 and back-end with node and MongoDB.</p>
                     </div>
                 </motion.div>
             </div>

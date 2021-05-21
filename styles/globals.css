@@ -6,6 +6,8 @@ body {
   background-color: black;
   font-family: sans-serif;
   color: #354358;
+  /* overflow: fixed; */
+  /* height: 100vh; */
 }
 
 ::-webkit-scrollbar-thumb {
