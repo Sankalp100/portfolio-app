@@ -154,18 +154,18 @@ export const projects: IProject[] = [
      ],
    },
  
-   // {
-   //   id: 2,
-   //   name: "Realtime Chat App",
-   //   image_path: "/images/chatapp.jpg",
-   //   deployed_url: "https://sumit-chat.netlify.app/",
-   //   github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-   //   //TODO type on category
-   //   category: ["node", "react"],
-   //   description:
-   //     "Basic Realtime Chat App where one can create a room can talk to each other",
-   //   key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-   // },
+   {
+     id: 2,
+     name: "Hulu Clone",
+     image_path: "/images/hulu.png",
+     deployed_url: "https://hulu-clone-two-tau.vercel.app/",
+     github_url: "https://github.com/Sankalp100/hulu-clone",
+     //TODO type on category
+     category: ["node", "react"],
+     description:
+       "Clone of a streaming platforms HULU",
+     key_techs: ["NextJs", "TailwindCSS"],
+   },
  
    // {
    //   id: 3,
